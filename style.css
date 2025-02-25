@@ -238,3 +238,48 @@
     font-size: 16px;
 }
 
+
+/* testimonial section*/
+
+#TESTIMONIALS{
+    /* display: flex; */
+    padding-top: 20px;
+
+   /* height: 60vh; */
+
+  }
+
+  .section-title{
+    padding-top: 20px;
+  }
+
+.Testimonials-content{
+    /* background-color: yellow; */
+    padding: 35px;
+}
+
+.TestmonialList{
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+}
+
+.TestmonialList li{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+
+    /* background-color: red; */
+}
+.user-image{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}

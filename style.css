@@ -297,6 +297,7 @@ html{
     background-color: #ffffff;
 }
 
+
 .gellery_content{
     /* background-color: yellow; */
     padding: 40px;
@@ -353,18 +354,23 @@ html{
     background-size: cover;
 }
 
-/* #gellery-box:hover{
-   width: 480px;
-   height: 280px;
-   
-} */
+
 
 /* contact us section Styling */
+
+form input,textarea {
+    border-radius: 15px;
+}
 .contact-section{
     padding: 50px 0 100px;
     background-color: rgb(230, 211, 213);
 }
 
+
+.section-content{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 
 .contact-section .section-content{
@@ -417,7 +423,9 @@ html{
 /* FOoter section Styling */
 
 .footer-section{
-    padding: 20px 0;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: rgb(52, 54, 54);
 }
 
